@@ -12,8 +12,8 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+
+- Live Site URL: https://ordersummary-nine.vercel.app/
 
 ### Built with
 
@@ -28,10 +28,10 @@ During this project, i learnt the concept of positioning elements accurately usi
 
 ### Useful resources
 
-- [resource 1](https://animista.net) - This helped me to use and understand flexbox . I really liked this pattern and will use it going forward.
+- https://animista.net - This helped me to use and understand flexbox . I really liked this pattern and will use it going forward.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - https://markpious1.github.io/
+- Frontend Mentor - https://www.frontendmentor.io/profile/@markpious1
+- Twitter - @PiousMark
