@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Red Hat Display", sans-serif;
+  outline: none;
+  border: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --bright-blue: hsl(245, 75%, 52%);
+  --light-blue: hsl(245, 85%, 64%);
+  --pale: hsl(225, 44%, 96%);
+  --dark-blue: hsl(223, 47%, 23%);
+  --desalt-blue: hsl(224, 23%, 55%);
+  --white: #fff;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: var(--pale);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  text-align: center;
+  overflow: hidden;
+  max-width: 350px;
+  position: relative;
+  margin-top: 50px;
+  border-radius: 10px;
+  background-color: var(--white);
+  box-shadow: 0 2px 50px rgba(0, 0, 0, 0.2);
+}
+
+.order-image {
+  width: 100%;
+}
+
+.inner-container {
+  padding: 1rem 2rem 2rem 2rem;
+}
+
+.order-summary {
+  margin-bottom: 0.5rem;
+}
+
+.annual-plan {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--pale);
+  border-radius: 10px;
+  padding: 0.5rem;
+  margin: 1rem 0 1rem 0;
+}
+
+.left-plan {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem;
+}
+
+.change {
+  color: var(--bright-blue);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btn {
+  width: 100%;
+  background-color: var(--bright-blue);
+  color: var(--white);
+  font-weight: 700;
+  border-radius: 6px;
+  padding: 0.7rem;
+  margin-top: 0.7rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.cancel-order {
+  font-weight: 700;
+  cursor: pointer;
+  text-align: center;
+  color: var(--desalt-blue);
+  transition: 0.4s;
+}
+
+.cancel-order:hover {
+  color: #000;
+}
+
+.btn,
+.change {
+  transition: 0.3s;
+}
+
+.change {
+  text-decoration: underline;
+}
+
+.btn:hover {
+  background-color: var(--light-blue);
+}
+
+.change:hover {
+  color: var(--light-blue);
+  text-decoration: none;
+}
